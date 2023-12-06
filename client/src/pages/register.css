@@ -1,0 +1,74 @@
+.App {
+    text-align: center;
+  }
+  
+  
+  .element {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 70%;
+    border-radius: 10%;
+    background-color: #CAD9FF;
+    box-shadow: 15px 15px 15px  #91A3CF;
+  
+    
+    
+  }
+  
+  .element h1 {
+    margin-top: 3%;
+  }
+  
+  .element form {
+    margin-top: 3%;
+    width : 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    background-color: #EAF0FF;
+  }
+  
+  .element input{
+    border: solid 0.1rem ;
+    border-color: #CAD9FF;
+    height:40px;
+    text-align: center;
+    
+  }
+  
+  
+  .form-example {
+    margin-top: 15%;
+    padding-bottom: 5%;
+  }
+  
+  .sub {
+    border: none;
+    background-color: white;
+    padding: 14px 40px;
+    border: solid 1rem ;
+    border-color: #CAD9FF;
+    
+  }
+  
+  .element input:hover {
+    background-color: #82A5FC;
+    color: white;
+  }
+  
+  .englobe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
